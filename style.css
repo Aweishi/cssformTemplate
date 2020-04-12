@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+*{
+	font-family:'Noto Sans TC', sans-serif;
+	font-weight: 300;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.wrap{
+	/*width: 1200px;*/
+	margin: auto;
+}
+
+.main-header{
+	background-color: #F84C48;
+	height: 60px;
+}
+
+.main-header img{
+	width: 300px;
+	height: auto;
+	margin-left: 30px;
+}
+
+
+/*banner*/
+.banner{
+	padding: 100px 0;
+	text-align: center;
+	background: url(img/kv_bgimage.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+	background-size:100%;
+}
+
+.banner h1{
+	/*font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 300;*/
+	font-size: 60px;
+	color: #F84C48;
+	/*padding-top: 100px;*/
+}
+.banner h2{
+	font-size: 40px;
+	color: #007D7D;
+}
+.txt-banner{
+	margin-bottom: 40px;
+}
+.promise{
+	margin-bottom: 10px;
+	color: #BE892B;
+	font-size: 24px;
+}
+.promise span{
+	font-size: 36px;
+	font-weight: 500;
+}
+.promise img{
+	width: 60px;
+	height: 60px;
+}
+.promise li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-apply{
+	margin: auto;
+	margin-bottom: 10px;
+	font-size: 30px;
+	/*border: solid 10px rgba(255, 0, 0, .1);*/
+	color: #fff;
+	background-color: #F84C48;
+	border-radius: 40px;
+	width: 300px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.banner h3:last-of-type{
+	font-size: 28px;
+	/*margin-top: 10px;*/
+}
