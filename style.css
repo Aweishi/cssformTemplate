@@ -106,10 +106,10 @@
 	color: #534741;
 }
 
-.index-form form{
+/*.index-form form{
 	display: flex;
 	flex-direction: column;
-}
+}*/
 
 .index-form form div{
 	margin: 20px 0;
@@ -119,9 +119,15 @@
 	margin-right: 50px;
 	font-size: 18px;
 	color: #534741;
+	/*display: block;*/
 }
 
-.index-form span{
+.index-form label > span{
+	float: left;
+
+}
+
+.index-form .required{
 	display: block;
 	color: #F84C48;
 	font-size: 14px;
@@ -132,8 +138,15 @@
 	width: 580px;
 	height: 45px;
 	border-radius: 5px;
+	padding-left: 25px;
+}
+
+.index-form input:focus{
+	outline: none;
 }
 .index-form ::-webkit-input-placeholder { 
 	color: #B8B8B8; 
-	padding-left: 25px;
 }
+
+
+
