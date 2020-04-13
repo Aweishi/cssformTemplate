@@ -84,3 +84,56 @@
 	font-size: 28px;
 	/*margin-top: 10px;*/
 }
+
+
+
+.index-form{
+	border-radius: 20px;
+	padding: 50px 0;
+	text-align: center;
+	background-color: #FEEBDB;
+	width: 960px;
+	margin: auto;
+}
+.index-form h2{
+	font-size: 30px;
+	font-weight: 500;
+	color: #007D7D;
+}
+
+.index-form p{
+	font-size: 20px;
+	color: #534741;
+}
+
+.index-form form{
+	display: flex;
+	flex-direction: column;
+}
+
+.index-form form div{
+	margin: 20px 0;
+}
+
+.index-form label{
+	margin-right: 50px;
+	font-size: 18px;
+	color: #534741;
+}
+
+.index-form span{
+	display: block;
+	color: #F84C48;
+	font-size: 14px;
+}
+
+.index-form input{
+	border:none;
+	width: 580px;
+	height: 45px;
+	border-radius: 5px;
+}
+.index-form ::-webkit-input-placeholder { 
+	color: #B8B8B8; 
+	padding-left: 25px;
+}
