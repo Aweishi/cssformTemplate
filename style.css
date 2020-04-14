@@ -10,6 +10,7 @@
 .wrap{
 	/*width: 1200px;*/
 	margin: auto;
+	background-color: #FFF6E5;
 }
 
 .main-header{
@@ -88,6 +89,7 @@
 
 
 .index-form{
+	margin-top:-500px;
 	border-radius: 20px;
 	padding: 50px 0;
 	text-align: center;
@@ -111,16 +113,9 @@
 	flex-direction: column;
 }*/
 
-.index-form form div{
-	margin: 20px 0;
-}
 
-.index-form label{
-	margin-right: 50px;
-	font-size: 18px;
-	color: #534741;
-	/*display: block;*/
-}
+
+
 
 .index-form label > span{
 	float: left;
@@ -133,7 +128,7 @@
 	font-size: 14px;
 }
 
-.index-form input{
+.quesion input{
 	border:none;
 	width: 580px;
 	height: 45px;
@@ -141,12 +136,57 @@
 	padding-left: 25px;
 }
 
-.index-form input:focus{
+.quesion input:focus{
 	outline: none;
 }
-.index-form ::-webkit-input-placeholder { 
+.quesion ::-webkit-input-placeholder { 
 	color: #B8B8B8; 
 }
 
+.quesion{
+	margin-top: 50px;
+}
 
+.input{
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.btn-confirm{
+	padding: 10px 65px;
+	margin: auto;
+	background-color: #F84C48;
+	display: inline-block;
+	border-radius: 40px;
+	
+}
+.btn-confirm h2{
+	color: #fff;
+	font-size: 30px;
+}
+
+.index-form p:last-child{
+	margin: auto;
+	font-size: 14px;
+	color: #534741;
+	padding-top: 10px;
+}
+
+.planing{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.feature{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.feature img{
+	width: 20%;
+}
 
