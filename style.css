@@ -4,7 +4,7 @@
 	font-weight: 300;
 	margin:0;
 	padding:0;
-	list-style:none;
+	/*list-style:none;*/
 }
 
 .wrap{
@@ -213,15 +213,21 @@
 
 .title-grid{
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top:50%;
+  	left: 50%;
+  	margin-left: -150px;
+  	margin-top: -125px;
 	width: 300px;
 	height: 253px;
-	/*padding: 20px;*/
-	box-sizing: border-box;
+	padding: 20px;
+	/*box-sizing: border-box;*/
 	border-radius: 20px;
 	text-align: center;
 	background-color: rgba(255,255,255,.7);
+}
+
+.title-grid span{
+	display: block;
 }
 
 .item{
@@ -230,6 +236,7 @@
 }
 
 .item img{
+	width: 100%;
 	display: block;
 }
 .item h2{
@@ -246,4 +253,123 @@
 .item h5{
 	font-size: 22px;
 	color: #007D7D;
+}
+
+.btn-grid{
+	margin: 55px auto;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 18px;
+	color: #fff;
+	width: 180px;
+	height: 45px;
+	background-color: #F84C48;
+
+}
+
+.btn-grid a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+.authority{}
+.title-authority{
+	text-align: center;
+	padding: 50px 0;
+}
+.title-authority h2{
+	font-weight: 500;
+	color: #007D7D;
+	font-size: 40px;
+}
+.title-authority p{
+	color: #534741;
+	font-size: 22px;
+}
+.feature-authority{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.feature-authority >.item img{
+	width: 90px;
+	height: 90px;
+}
+
+.feature-authority .item{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feature-authority .item h3{
+	font-size: 40px;
+	color: #F84C48;
+	font-weight: 500;
+}
+
+.feature-authority .item p{
+	font-size: 22px;
+	color: #F84C48;
+	font-weight: 500;
+}
+
+
+.learnmore{
+	background-color: #F84C48;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.title-more{
+
+	color: #FEEBDB;
+}
+
+.title-more h2{
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.title-more p{
+	font-size: 22px;
+}
+
+.btn-more a{
+	color: #007D7D;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 2px;
+	
+}
+
+.btn-more{
+	margin-top: 20px;
+	border-radius: 50px;
+	padding: 10px 55px;
+	display: inline-block;
+	background-color: #FEEBDB;
+}
+
+.maintitle-aims{
+	text-align: center;
+}
+.aims-part1{
+	text-align: center;
+}
+.aims-part2{
+	display: flex;
+	justify-content: center;
+
+}
+
+.aims-part2 .list{
+	list-style: decimal;
+	padding-right: 100px;
 }
