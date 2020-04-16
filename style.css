@@ -95,7 +95,8 @@
 	text-align: center;
 	background-color: #FEEBDB;
 	width: 960px;
-	margin: auto;
+	margin:-80px auto 80px auto ;
+
 }
 .index-form h2{
 	font-size: 30px;
@@ -357,19 +358,72 @@
 	background-color: #FEEBDB;
 }
 
+
+.aims{
+	padding: 100px 0;
+}
+
+.aims > h4{
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+
 .maintitle-aims{
 	text-align: center;
 }
 .aims-part1{
-	text-align: center;
+	padding:20px 0;
+	width: 80%;
+	margin: auto;
 }
 .aims-part2{
+	width: 80%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	margin: auto;
 
 }
 
 .aims-part2 .list{
 	list-style: decimal;
 	padding-right: 100px;
+}
+
+
+
+
+
+.footer{
+	text-align: center;
+	padding: 50px 0;
+	background-color: #717171;
+}
+
+.title-footer{
+	margin: auto;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.maintitle h2{
+	margin-right: 50px;
+	font-size: 50px;
+	color: #DEDEDE;
+	font-weight: 500;
+}
+
+.subtitle p{
+	text-align: left;
+	color: #DEDEDE;
+	font-size: 20px ;
+}
+
+.tel-footer{
+	font-size: 30px;
+	color: #FEDA00;
+	margin-top: 20px;
 }
